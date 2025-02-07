@@ -19,7 +19,7 @@ pipeline {
         stage('Exécuter le script Python') {
             steps {
                 // Exécution du script, ici supposé s'appeler "script.py"
-                sh 'python3.11 script.py'
+                sh 'python3.11 os_detector.py'
             }
         }
     }
